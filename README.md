@@ -1,5 +1,5 @@
-#Blank:
+#Blank
 https://cdn.jsdelivr.net/gh/rialms/resources@master/
 
-#portfolio assests
+#portfolioAssests
 https://cdn.jsdelivr.net/gh/rialms/resources@master/portfolio/assets/
