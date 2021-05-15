@@ -1,0 +1,141 @@
+
+body#layout{width:1000px}
+body#layout header, body#layout main, body#layout footer{padding:0 18px 0}
+body#layout header .headersearch{display:none}
+body#layout #header-widget, body#layout .sidebar{width:40%}
+body#layout #menu-content, body#layout .mainbar{width:60%}
+body#layout .main-content, body#layout #header-container, body#layout .footer-content{display:flex}
+body#layout footer .section{width:95.5%}
+body#layout #HTML2{width:50%;float:left;z-index:1}
+/* Variable color */
+:root{
+
+
+--dark-text: #fefefe ;
+--dark-text-alt: #989b9f ;
+--dark-link: #005af0 ;
+--dark-bg: #313334 ;
+--dark-bg-alt: #2d2d30 ;
+--dark-bg-sec: #252526 ;
+--page-1: #f7faff ;
+--page-2: #F8F9FA ;
+--page-3: #fefefe ;
+}
+*/
+
+
+
+/* Main Content */
+html{scroll-behavior:smooth;overflow-x:hidden}
+body{position:relative;margin:0;padding:var(--header-height) 0 0!important;width:100%;font-family:var(--font-body);font-size:14px;color:var(--body-color);background-color:var(--body-bg-color);-webkit-font-smoothing: antialiased;-webkit-transition:all .1s ease;transition:all .1s ease; -webkit-user-select:none!important;-moz-user-select:-moz-none!important;-ms-user-select:none!important;user-select:none!important; word-break: break-word}
+pre code,code,ktxt,b,.columnbreak2,.post-title,.post-body blockquote,.Blog .code, .uihover, .Blog .post-block, .Blog .comment-messages, .Blog .comments-content .comment-block{-webkit-user-select:text!important;-moz-user-select:text!important;-ms-user-select:text!important;user-select:text!important}
+main{display:block; padding:0 0 10px;-webkit-transition:all .1s ease;transition:all .1s ease}
+.main-container{width:90%;max-width:1100px;margin:auto}
+.main-content{display:flex;padding:50px 0}
+
+.singleItem.page .mainbar{max-width:768px;padding:0}
+.singleItem .mainbar{padding-right:50px}
+.singleItem .Blog .post-content{max-width:720px;width:100%;padding:0}
+.pageBreak{width:100%;height:55px}
+.page-1{background-color:var(--page-1);padding-bottom:6%}
+.page-1 .pageContent{background-color:#fff; padding:0}
+.page-1 .pageBreak{display:block;fill:#fff;transform:scaleX(-1);-webkit-transform:scaleX(-1)}
+.page-1 .pageFlex{padding-top:80px;padding-bottom:80px}
+
+/* Hero */
+.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}.mb-lg-0,.my-lg-0{width: 85%; padding: 25px 0; margin-bottom:0!important}.card{transition:all .4s ease-in-out;box-shadow:0 0.125rem 0.25rem rgb(0 0 0 / 8%);border-radius:.5rem;background:#fff}.card{position:relative;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;min-width:0;word-wrap:break-word;background-color:var(--body-bg-color);background-clip:border-box;-webkit-border-radius:5px;border-radius:5px;}
+.h-100, .h-200{height:100%!important}.w-sm-65{width:65%!important}.p-4{padding:1.5rem!important}.mb-4,.my-4{margin-bottom:1.5rem!important}.btn:not(:disabled):not(.disabled){cursor:pointer}.transition-3d-hover{transition:all .2s ease-in-out}.btn-pill{border-radius:6.1875rem}.btn-soft-primary{background-color: transparent !important; color:#1dbf73!important;border:1px solid #dadce0}.btn-group-sm>.btn,.btn-sm{padding:.625rem 1.125rem;font-size:.875rem;line-height:1.5;border-radius:.25rem}
+.card.h-100:before{content:'';display:block;position:absolute;bottom:15px;right:15px;width:120px;height:155px;background-image:url(http://1.bp.blogspot.com/-Ngg9jvQmwPo/YGCEF-pBsNI/AAAAAAAAUB4/jaZ4IS7DvV0b0j5Nrl4QXgdOSODAOaXswCLcBGAsYHQ/s0/Make%2BMore%2BMoney%2BWith%2BEmail%2BCourse.png);background-repeat:no-repeat;background-size:cover;transform:rotate(348deg);overflow:hidden!important;transition:opacity .3s;opacity:1;border:1px solid #f2f2f2;box-shadow:-13px -7px 6px 2px rgb(9 32 76 / 3%)}
+.card.h-200:before{content:'';display:block;position:absolute;bottom:15px;right:15px;width:120px;height:155px;background-image:url(http://1.bp.blogspot.com/-Ngg9jvQmwPo/YGCEF-pBsNI/AAAAAAAAUB4/jaZ4IS7DvV0b0j5Nrl4QXgdOSODAOaXswCLcBGAsYHQ/s0/Make%2BMore%2BMoney%2BWith%2BEmail%2BCourse.png);background-repeat:no-repeat;background-size:cover;transform:rotate(348deg);overflow:hidden!important;transition:opacity .3s;opacity:1;border:1px solid #f2f2f2;box-shadow:-13px -7px 6px 2px rgb(9 32 76 / 3%)}
+.card.h-100:hover, .card.h-200:hover{-webkit-box-shadow:0 0.625rem 0.875rem -0.3125rem #e0e0e0;box-shadow:0 0.625rem 0.875rem -0.3125rem #e0e0e0}
+.hero{position:relative;display: flex;width:100%;top:0;color:#333333;-webkit-transition:all .7s ease-out;-moz-transition:all .7s ease-out;transition:all .7s ease-out}#heroinside{width:100%;text-align:left;margin:0;padding:0;overflow:hidden}.hero:before,.hero:after{clear:both;display:table;content:''}#hero a,#heroinside a{color:var(--body-bg-color)}.hero-block{float:right;width:52%;margin-left:47%;position:absolute;text-align:right}.herotext{position:relative;display:inline-block;float:left;width:55%;padding-right:2%;line-height:1.5rem;padding-top:9%}
+.hero-block{float:right;width:42%;margin-left:59%;position:absolute;text-align:right}.hero-block .cards{width:100%;height:640px;right:0;top:0;float:left}.hero-block .card{background-color: var(--body-bg-color);-webkit-border-radius:5px;border-radius:5px;width:200px;height:180px;margin:10px;text-align:center;display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;display:-webkit-flex;-webkit-box-orient:vertical;z-index:5;top:0;position:absolute;-webkit-transition:all .15s ease-in-out;transition:all .15s ease-in-out}.hero-block a.card:hover{animation:shake 0.82s cubic-bezier(.36,.07,.19,.97) both;transform:translate3d(0,0,0);backface-visibility:hidden;perspective:1000px}@keyframes shake{10%,90%{transform:translate3d(-1px,0,0)}20%,80%{transform:translate3d(2px,0,0)}30%,50%,70%{transform:translate3d(-4px,0,0)}40%,60%{transform:translate3d(4px,0,0)}}.hero-block .card-body{padding:10px;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;float:right}.card-body{-webkit-box-flex:1;-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;padding:1.25rem}.hero-block .card-icon{padding:10px;margin-top:auto;margin-bottom:auto}.hero-block .card-icon svg{height:2.5rem;width:2.5rem;vertical-align:middle;align-items:center;fill:#1dbf73}.hero-block .card-0 .card-body,.hero-block .card-1 .card-body{padding:10px 22px}.hero-block .card-0{top:123px}.hero-block .card-0,.hero-block .card-1{width:200px;height:180px;top:123px}.hero-block .card-1{top:343px}.hero-block .card-2{top:13px;right:0;float:right!important}.hero-block .card-3{top:213px;right:0;float:right}.hero-block .card-4{top:413px;right:0}.hero-block .card-body h4{font-size:20px;margin-bottom:15px;margin-bottom:.5rem;font-family:inherit;font-weight:700;line-height:1.2;color:#111}.hero-block .card-0 .card-body p,.hero-block .card-1 .card-body p{height:45px;float:right} .hero-block .card p.mb-0 {margin: auto}.hero-block .card-body p{font-size:13px;color:#686869;height:35px;line-height:18px}.sidebar{color:#253543;line-height:1.5em}
+
+
+/* Dark Mode */
+.dark-mode .page-1 .pageContent{background-color:var(--dark-bg-alt)}.dark-mode .page-1 .pageBreak{fill:var(--dark-bg-alt)}.dark-mode .page-1 {background-color:var(--dark-bg)}
+.dark-mode svg, .dark-mode header .headernav > * svg{fill:var(--dark-text)}.dark-mode .Blog .post-tocHeader label .show {background-color:var(--dark-bg-alt);}
+.dark-mode, .dark-mode .Blog .post-toc, .dark-mode .Blog .post-tabsHeader > *:after{background-color:var(--dark-bg-alt)}
+.dark-mode svg.line, .dark-mode svg .line, .dark-mode header .headernav > * svg.line, .dark-mode header .headernav > * svg .line{fill:none;stroke:var(--dark-text)}
+.dark-mode .Blog .post-share li > * svg, .dark-mode .Blog .post-comment > * svg, .dark-mode .PopularPosts .item-comment > * svg, .dark-mode .Profile .solo .profile-media li svg,  .dark-mode .Blog .post-shareIcon > * svg{fill:#969896}
+.dark-mode .Blog .post-share li > * svg.line, .dark-mode .Blog .post-tocHeader label svg.drop, .dark-mode .Blog .post-comment > * svg.line, .dark-mode .Blog .post-shareIcon > * svg.line, .dark-mode .Blog .post-shareInner li > * svg.line, .dark-mode .PopularPosts .item-comment > * svg.line{fill:none;stroke:#969896}
+.dark-mode, .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6, .dark-mode header, .dark-mode .Blog .post-entry, .dark-mode .tableOfContent .tocHeader, .dark-mode .Blog .post-authorsName, .dark-mode .Blog .separate:before,.dark-mode .Blog .post-title, .dark-mode .Blog .post .post-title, .dark-mode .Blog .post-tocHeader label, .dark-mode .Blog .post-tocContent a,  .dark-mode .Blog .post-shareIcon > *, .dark-mode .Blog .post-shareInner ul:before, .dark-mode .Blog .related-posts .item-title, .dark-mode .Blog blockquote:before, .dark-mode .Label .cloud .label-size > *, .dark-mode .Label .cloud .label-name, .dark-mode .Blog .post-labels > *, .dark-mode .Profile .solo .profile-link, .dark-mode  .dark-mode .Profile .team .all-member .all-memberBox:before, .dark-mode .button.outline, .dark-mode .switch.outline{color:#fefefe}.dark-mode .Blog blockquote{background-color:#2a2a2a}
+.dark-mode header .header-inner span, .dark-mode header .menunav .dropdown li > *, .dark-mode .main-menu li > *, .dark-mode .Blog .post-header .post-author, .dark-mode .Blog .post-header .post-timestamp, .dark-mode .Blog .post-comment, .dark-mode .Blog .breadcrumbs, .dark-mode .tableOfContent .tocHeader:after, .dark-mode .tableOfContent .tocContent li:before, .dark-mode .Blog .post-ad .widget:before, .dark-mode .Blog .post-entry .widget:before, .dark-mode .Blog table.tr-caption-container .tr-caption, .dark-mode .Blog .post-description, .dark-mode .Blog .post-authorsName:before, .dark-mode .Blog .post-authorsDesc, .dark-mode .Blog blockquote.style-3, .dark-mode .Blog .block-author .block-info, .dark-mode .Blog .post-shareInner li > .post-shareNotif span, .dark-mode .PopularPosts .item-header, .dark-mode .PopularPosts .item-header .item-timestamp, .dark-mode .PopularPosts .item-content:before, .dark-mode .Profile .solo .profile-text, .dark-mode .Profile .team .all-member .team-member .profile-name:after, .dark-mode .Label .label-count, .dark-mode .Label .label-show label:after, .dark-mode footer .credit, .dark-mode .Blog .comments-title .label-sort, .dark-mode .Blog .comment-header .datetime, .dark-mode .tableOfContent .tocContent li > *:before{color:#969896}
+.dark-mode header .headernav .navHam i, .dark-mode .widget .title:after, .dark-mode .comments .title:after, .dark-mode .Blog .blog-title .navGrid > div i:before, .dark-mode .Blog .blog-title .navGrid > div i:after, .dark-mode .Blog .post-shareInner li > .post-shareNotif span{background-color:var(--body-bg-color)}
+.dark-mode, .dark-mode .Blog .post-shareInner ul, .dark-mode .Blog .post-shareInner ul:before, .dark-mode .Profile .solo .profile-media {background-color:#252526} .dark-mode .Blog .post-tocHeader label svg.drop {fill: var(--dark-text) !important;} .dark-mode .card.h-100, .dark-mode .card.h-200{background-color:#2a2a2a;border:none}
+.dark-mode header, .dark-mode header.sticky, .dark-mode header .headersearch, .dark-mode header .headersearch:before, .dark-mode header .menunav .dropdown ul, .dark-mode .setting-box:checked + header .menunav li.settings{background-color:var(--dark-bg-alt)}
+.dark-mode header .menunav .dropdown li a:hover,.dark-mode .setting-box:checked + header .menunav li.settings li a:hover, .dark-mode .Blog .blog-pager .no-post, .dark-mode .Blog .blog-pager .nolink, .dark-mode .Blog .post-pagenav .current, .dark-mode .Blog .post-block, .dark-mode .widget input[type=email], .dark-mode .widget input[type=text], .dark-mode .widget textarea,.dark-mode .Blog .comments-content > ol > li, .dark-mode .Blog .comments-content > ol > li > .comment-replies {background-color: var(--dark-bg-alt);} .dark-mode .Blog .comments li li .comment-block{background-color:#2a2a2a}.dark-mode #blog-pager a{color:#fff!important;border:none;background-color:#2d2d30}.dark-mode .Blog table tr:nth-child(2n + 1) td{background-color:rgba(0,0,0,.1)}
+.dark-mode header, .dark-mode .Label .cloud .label-name, .dark-mode .Blog article:not(:last-child), .dark-mode .Blog .post-labels > *, .dark-mode .Blog .post-related, .dark-mode .tableOfContent, .dark-mode .Blog table th, .dark-mode .Blog table td, .dark-mode .Blog .post-share, .dark-mode .Blog blockquote, .dark-mode .PopularPosts article:not(:last-child), .dark-mode .button.outline, .dark-mode .switch.outline, .dark-mode .Blog .comments-title, .dark-mode .Blog .comments li:not(:last-child), .dark-mode .Blog .comment-all:checked + .comments-title + .comments-content ol > li:last-child {border-color:rgba(255,255,255,.1)}
+.dark-mode header.sticky, .dark-mode .ContactForm input[type=text], .dark-mode .ContactForm textarea{border-color:transparent} .dark-mode .hero {color: #fff} .dark-mode .hero-block .card-body h4,.dark-mode .small-caps {border-color:2a2a2a; color:#fff!important} .dark-mode #hero a, .dark-mode #heroinside a, .dark-mode .hero-block .card-body {color:#fff!important; background-color: #2a2a2a}
+@media screen and (min-width:1440px){.Blog .post-toc{width:410px}.Blog .toc-menu:checked + .post-toc{right:-410px}}
+@media screen and (max-width:1024px){.main-container{width:calc(100% - 50px)}.hero-block {width: 45%; margin-left: 56%}.hero-block .card-0, .hero-block .card-1 {margin:auto;left:-16px} .mb-lg-0, .my-lg-0 {display: grid; margin:5% 0; width: 92%}}
+@media screen and (max-width:960px){.main-container{width:calc(100% - 50px)}.herotext {width: 51%}.hero-block {width: 52%; margin-left: 50%}}
+@media screen and (min-width:768px){.main-container{width:calc(100% - 50px)}::-webkit-scrollbar{-webkit-appearance:none;width:10px;height:5px}::-webkit-scrollbar-track{background-color:transparent}::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,.15);border-radius:10px}::-webkit-scrollbar-thumb:hover{background-color:rgba(0,0,0,.45)}::-webkit-scrollbar-thumb:active{background-color:rgba(0,0,0,.45)}.Blog .post-toc{width:325px;padding-left:25px;padding-right:25px}
+.Blog .post-tocHeader label .show{left:-75px}
+.Blog .toc-menu:checked + .post-toc{right:-325px}}
+@media screen and (max-width:800px){
+.main-container{width:calc(100% - 50px)}
+header .headernav.left{display:flex}
+header .headernav .navSetting, header .menunav .dropdown.more .table, .menunav .dropdown.more .table svg.drop{display:none}
+header .menunav{position:fixed;top:0;left:0;width:100%;padding:0;visibility:hidden;z-index:5;font-size:13px;line-height:20px}
+header .menunav .widget > ul{display:block;position:fixed;top:0;left:0;width:90%;max-width:500px;height:100vh;margin-left:-110%;padding:60px 0 90px;background-color:rgba(254,254,254,.98);box-shadow:0 0 10px 5px rgba(30,30,30,.07);border-radius: 0 10px 10px 0; overflow-x:hidden;overflow-y:auto;-ms-overflow-style: none;-webkit-overflow-scrolling:touch;transition: all .2s ease-in-out .1s;-webkit-transition: all .2s ease-in-out .1s;z-index:3}
+header .menunav .break:after{content:'';display:block;margin:15px 25px;border-bottom:1px solid rgba(230,230,230,1)}
+li.brandhome.hidden {display: block;}
+header .menunav  .close {display:flex!important;border-radius:0 20px 0 0;align-items:center;height:22px;position:absolute;top:20px;left:25px;z-index: 5}
+header .menunav .table{display:flex;align-items:center;padding:10px 25px}
+header .menunav .table svg.hidden{display:block}
+header .menunav .table svg.drop{margin-left:auto}
+header .menunav .dropdown ul{width:100%;position:relative;top:initial;background:transparent;box-shadow:none;border-radius:0;opacity:1;visibility:visible}
+header .menunav .dropdown:hover ul{top:initial}
+header .menunav .dropdown li{height:0;-webkit-transition: all .2s ease-in-out;transition: all .2s ease-in-out}
+header .menunav .dropdown li:first-child a{padding-top:10px}
+header .menunav .dropdown li > *{padding:10px 25px 10px 65px}
+header .menunav .dropdown input:checked + .table + ul li{height:40px}
+header .menunav .dropdown input:checked + .table svg.drop{-webkit-transform:rotate(180deg);transform:rotate(180deg)}
+header .menunav .dropdown.more .table span{margin-left:40px}
+header .menunav .dropdown.more li{height:auto}
+header .menunav .dropdown.more li a{padding:7px 25px 7px 65px}
+header .menunav .dropdown.more li:first-child a{padding-top:7px}
+header .menunav .settings{position:relative;top:auto;right:auto;width:100%;max-width:none;margin-top:10px;padding:0;color:inherit;opacity:1;visibility:visible;background-color:transparent;box-shadow:none;border-radius:0}
+header .menunav .settings .table{padding:10px 25px}
+header .menunav .settings .table:hover{background-color:transparent}
+header .menunav .settings .table svg{margin-right:20px}
+header .menunav .settings .socialmedia{position:fixed;bottom:0;width:90%;max-width:500px;margin:0;padding:20px 25px;background-color:rgba(254,254,254,.98)}
+header .menunav .settings .socialmedia li:not(:last-child){width:auto;margin-right:10px}
+.canvas-menu:checked + #wrapper .menunav{visibility:visible}
+.canvas-menu:checked + #wrapper .menunav .widget > ul{margin-left:0}
+.canvas-menu:checked + #wrapper .menunav .full-close.canvas{background:rgba(0,0,0,.25);visibility:visible;opacity:1}
+.dark-mode .menunav .widget > ul,
+.dark-mode .menunav .widget > ul:before,
+.dark-mode .menunav .settings .socialmedia{background-color:#232323}
+.dark-mode .menunav .settings .table svg{fill:#fefefe}
+.dark-mode .menunav .settings .table svg.line{fill:none;stroke:#fefefe}
+.dark-mode .menunav .settings .socialmedia .table svg{fill:#fefefe}
+.dark-mode .menunav .break:after, .dark-mode .menunav .settings .socialmedia{border-color:rgba(255,255,255,.1)}
+.hero-block{width: 46.5%; margin-left: 54%;} .herotext{padding:0} .mb-lg-0,.my-lg-0{height:240px;width:100%} .max-w-27rem {max-width: 7rem;} .hero-block .cards {width: 60%;}.hero-block .card {width: 45%;}
+.herotext{float:none;width:100%}.herobuttons{padding:10px 15px 20px 0;margin:10px 0;float:none;width:100%;text-align:center}a.button.triggerbutton{width:70%!important}.hero-block{margin:0px;width:100%;align-items:center;position:relative;text-align:center;vertical-align:-webkit-baseline-middle}.hero-block .cards {width:100%;} span.herosubtitle{font-size:1.0em;line-height:1.6875rem}
+.more-money-heading h2 span{font-size: 96px}
+.main-menu .main-container{padding:0 25px;width:100%}
+.main-menu ul li:last-child{padding-right:25px}
+.main-content{display:block}
+.mainbar, .singleItem .mainbar, .sidebar{width:100%;padding:0} .sidebar{margin-top:80px;max-width:640px}
+.Blog .post-share{padding:15px 0}
+.Blog .post-shareInner, .Profile .team .all-member{align-items:flex-end}
+.Blog .post-shareIn:checked + .post-shareInner ul, .Profile .team .all-team:checked + .all-member .all-memberBox{margin:0 auto 20px}
+.Blog .post-title {font-size:16px}
+.Blog .post-block, .Blog .first-image{position:relative;width:114%;left:-7%;overflow:hidden}
+.Blog .first-image img{display:block;width:100%;border-radius:0}
+.Blog .comments-content li li .comment-avatar {left:-30px}
+footer .footer-content > *{width:23.333%}
+footer .footer-content > *:first-child{width:30%}
+}
+@media screen and (max-width:640px){
+.main-container{width:calc(100% - 40px)}
+header .menunav .table, header .menunav .settings .table, header .menunav .settings .socialmedia{padding-left:20px}
+header .menunav .dropdown li > *, header .menunav .dropdown.more li a{padding-left:60px}
+.hero-block .card {width: 45%;}.hero-block .card-0, .hero-block .card-1 {left: 0;}
+.main-menu .main-container{padding: 0 20px}
+
+}
+
+
