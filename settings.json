@@ -4,7 +4,7 @@
     "settingsVersion": "2-46-0",
     "propertyName": "WEBSITE",
     "branding": {
-      "whitelabeled": true,
+      "whitelabeled": false,
       "text": "Talk To Rokibul",
       "url": "https://rokibulroni.com/"
     },
