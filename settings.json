@@ -3,11 +3,7 @@
   "data": {
     "settingsVersion": "2-46-0",
     "propertyName": "WEBSITE",
-    "branding": {
-      "whitelabeled": false,
-      "text": "Talk To Rokibul",
-      "url": "https://rokibulroni.com/"
-    },
+   
     "widget": {
       "type": "inline",
       "version": 37,
