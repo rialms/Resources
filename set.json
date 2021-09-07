@@ -1,0 +1,217 @@
+{
+  "ok": true,
+  "data": {
+    "settingsVersion": "2-46-0",
+    "propertyName": "WEBSITE",
+   
+    "widget": {
+      "type": "inline",
+      "version": 37,
+      "language": "en",
+      "minimized": {
+        "desktop": {
+          "type": "round"
+        },
+        "mobile": {
+          "type": "round"
+        }
+      },
+      "maximized": {
+        "desktop": {
+          "height": 500,
+          "width": 350
+        }
+      },
+      "theme": {
+        "header": {
+          "text": "#ffffff",
+          "background": "#373835"
+        },
+        "agent": {
+          "messageText": "#ffffff",
+          "messageBackground": "#039746"
+        },
+        "visitor": {
+          "messageText": "#333333",
+          "messageBackground": "#e5e5e5"
+        }
+      },
+      "notification": {
+        "all": {
+          "estimatedWaitTime": false,
+          "sound": false,
+          "agentTyping": true,
+          "visitorTyping": true,
+          "tab": true
+        },
+        "desktop": {
+          "preview": false
+        },
+        "mobile": {
+          "preview": false
+        }
+      },
+      "behavior": {
+        "click": "max"
+      },
+      "visibility": {
+        "all": {
+          "showWhenOffline": false
+        },
+        "desktop": {
+          "position": "br",
+          "show": true
+        },
+        "mobile": {
+          "position": "br",
+          "show": true
+        }
+      },
+      "features": {
+        "emoji": true,
+        "uploads": false,
+        "rating": false,
+        "transcript": true
+      },
+      "components": {
+        "liveChat": true,
+        "kb": true,
+        "webrtc": true
+      },
+      "scheduler": {
+        "enabled": false
+      },
+      "states": {
+        "online": {
+          "header": [
+            {
+              "id": "heading:KabCC6wqNf",
+              "type": "heading",
+              "content": {
+                "value": "Hi there 👋",
+                "alignment": "left"
+              }
+            },
+            {
+              "id": "text:_w0KQmXJRr",
+              "type": "text",
+              "content": {
+                "value": "Need help? Search our help center for answers or start a conversation:",
+                "alignment": "left"
+              }
+            }
+          ],
+          "body": [
+            {
+              "id": "kbs:8b6DFjEAGw",
+              "type": "kb-search",
+              "content": {
+                "siteId": "primary",
+                "linkTarget": "self",
+                "inputPlaceholder": "Search for answers"
+              }
+            },
+            {
+              "id": "chat:-y-8G_KBRB",
+              "type": "chat",
+              "content": {
+                "buttonText": "New Conversation",
+                "inputPlaceholder": "Type here and press enter.."
+              }
+            },
+            {
+              "id": "pc:NFVOA-MBiO",
+              "type": "previous-conversations",
+              "content": {}
+            }
+          ],
+          "minimizedText": "Online"
+        },
+        "away": {
+          "header": [
+            {
+              "id": "heading:Ki4p-O-ifW",
+              "type": "heading",
+              "content": {
+                "value": "Hi there 👋",
+                "alignment": "left"
+              }
+            }
+          ],
+          "body": [
+            {
+              "id": "kbs:zogYvRnBp5",
+              "type": "kb-search",
+              "content": {
+                "siteId": "primary",
+                "linkTarget": "self",
+                "inputPlaceholder": "Search for answers"
+              }
+            },
+            {
+              "id": "chat:I4fKFRJ2M0",
+              "type": "chat",
+              "content": {
+                "buttonText": "New Conversation",
+                "inputPlaceholder": "Type here and press enter.."
+              }
+            }
+          ],
+          "minimizedText": "Away"
+        },
+        "offline": {
+          "header": [
+            {
+              "id": "text:YQdnuuWXNe",
+              "type": "text",
+              "content": {
+                "value": "Please fill out the form below and we will get back to you as soon as possible.",
+                "alignment": "center"
+              }
+            }
+          ],
+          "body": [
+            {
+              "id": "form:YEEoarBc0s",
+              "type": "form",
+              "content": {
+                "fields": [
+                  {
+                    "label": "Name",
+                    "required": true,
+                    "type": "text",
+                    "context": "name"
+                  },
+                  {
+                    "label": "Email",
+                    "required": true,
+                    "type": "text",
+                    "context": "email",
+                    "format": "email"
+                  },
+                  {
+                    "label": "Message",
+                    "required": true,
+                    "type": "textarea"
+                  }
+                ]
+              }
+            }
+          ],
+          "minimizedText": "Send message"
+        }
+      },
+      "consent": {
+        "message": "Hello! We would like to talk to you. Under the EU General Data Protection regulation, we need your approval for the use of personal information (e.g. your name and email)\nIs this ok with you?",
+        "policy": {
+          "text": "Privacy Policy",
+          "url": "https://www.rokibulroni.com/privacy-terms/"
+        },
+        "actions": {
+          "accept": "I accept",
+          "reject": "Not now"
+        }
+      }
+    }
+  }
+}
