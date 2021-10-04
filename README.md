@@ -12,6 +12,8 @@
 # CDN
 ### Site: [https://statically.io/](https://statically.io/) 
 
+# js eval pack
+### https://rialms.github.io/de4js/
 
 
 
