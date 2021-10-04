@@ -15,5 +15,7 @@
 # js eval pack
 ### https://rialms.github.io/de4js/
 
+# tg react
+### https://github.com/evgeny-nadymov/telegram-react
 
 
