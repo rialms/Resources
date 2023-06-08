@@ -4,7 +4,7 @@
 # HOST CDN
 ### Site: https://cdn.jsdelivr.net/gh/rialms/resources@master/portfolio/assets/
 
-# CSS Grid Generator
+# CSS Grid Generator...
 
 ### Site: [https://cssgrid-generator.netlify.com/](https://cssgrid-generator.netlify.com/)
 
